@@ -1,8 +1,13 @@
 # incr-object
 
 A standalone incrementing object. Good for quick statistics scripts
-and so on. Kind of like a set, except geared towards binning. Basically
-just abstracts away the annoyingness of `undefined++`.
+and so on. Kind of like a set, except geared towards binning. Abstracts away the annoyingness of `undefined++`.
+
+## usage
+
+    npm install --save incr-object
+
+## example
 
 ```js
 var incr = require('incr-object');
