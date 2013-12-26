@@ -20,6 +20,9 @@ obj.incr('foo');
 // bring it back down to zero
 obj.decr('foo');
 
+// increase key foo by 10
+obj.plus('foo', 10);
+
 // get the value for foo
 obj.value('foo');
 
